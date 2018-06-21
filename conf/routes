@@ -1,0 +1,6 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+POST    /sign_in                    controllers.UsersController.signIn
+POST    /sign_up                    controllers.UsersController.signUp
